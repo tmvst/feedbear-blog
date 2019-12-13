@@ -1,21 +1,26 @@
-
 // Font.
 $font: (
-  primary: ("PT Sans", sans-serif),
-  secondary: ("PT Serif", serif)
+  primary: (
+    "PT Sans",
+    sans-serif
+  ),
+  secondary: (
+    "PT Serif",
+    serif
+  )
 );
 
 // Palette.
 $palette: (
-  primary:       #5e5e5e,
-  secondary:     darken(#5e5e5e, 25%),
-  meta:          lighten(#5e5e5e, 25%),
-  border:        lighten(#5e5e5e, 50%),
-  bg:            lighten(#5e5e5e, 60%),
-  accent:        #3cb464,
-  accent-blue:   #108afb,
-  accent-black:  #323232,
-  accent-red:    #a51c30
+  primary: #5e5e5e,
+  secondary: darken(#5e5e5e, 25%),
+  meta: lighten(#5e5e5e, 25%),
+  border: lighten(#5e5e5e, 50%),
+  bg: lighten(#5e5e5e, 60%),
+  accent: #3cb464,
+  accent-blue: #108afb,
+  accent-black: #323232,
+  accent-red: #f84339
 );
 
 @import "imports/functions";
