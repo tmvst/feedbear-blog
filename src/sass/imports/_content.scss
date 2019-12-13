@@ -75,7 +75,6 @@
 }
 
 .post-card-inside {
-  border: 1px solid _palette(border);
   border-radius: 3px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -99,6 +98,7 @@
 
 .post-card-content {
   padding: 1.33333rem 1.66667rem 0.33333rem;
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 681px) {
@@ -139,7 +139,7 @@
 
     .post-card-content {
       &:only-child {
-        border-top: 50px solid rgba(_palette(accent),0.1);
+        border-top: 50px solid rgba(_palette(accent), 0.1);
       }
     }
   }
@@ -171,7 +171,7 @@
       flex: 1 1 auto;
 
       &:only-child {
-        border-right: 165px solid rgba(_palette(accent),0.1);
+        border-right: 165px solid rgba(_palette(accent), 0.1);
         padding-right: 7%;
       }
     }
@@ -227,7 +227,7 @@
   }
 }
 
-.intro-cta{
+.intro-cta {
   margin-bottom: 1.66667rem;
 
   .button {
